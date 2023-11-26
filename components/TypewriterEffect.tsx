@@ -1,6 +1,13 @@
+
+
+
 import React, { useState, useEffect } from 'react';
 
-export default function TypewriterEffect({ text }) {
+interface TypewriterEffectProps {
+  text: string;
+}
+
+const TypewriterEffect: React.FC<TypewriterEffectProps> = ({ text }) => {
   const [displayText, setDisplayText] = useState('');
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -27,4 +34,6 @@ export default function TypewriterEffect({ text }) {
       {displayText}
     </span>
   );
-}
+};
+
+export default TypewriterEffect;
