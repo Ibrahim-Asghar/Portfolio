@@ -10,7 +10,7 @@ import Navbar from "@/components/Navbar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "portfolio-site-with-sanity-and-nextjs",
+  title: "Muhammad Ibrahim",
   description: "A personal portfolio site built with Sanity and Next.js",
   // openGraph: {    images: "http://localhost:3000/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.b6465c73.png&w=640&q=75",  },
 };
