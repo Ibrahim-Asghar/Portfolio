@@ -11,7 +11,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Muhammad Ibrahim",
-  description: "A personal portfolio site built with Sanity and Next.js",
+  description: "Muhammad Ibrahim Portfolio",
   // openGraph: {    images: "http://localhost:3000/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.b6465c73.png&w=640&q=75",  },
 };
 
