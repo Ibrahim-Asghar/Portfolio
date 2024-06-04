@@ -59,6 +59,20 @@ fields: [
       type: "array",
       of: [{ type: "block" }],
     },
+      {
+      name: "resumeImage",
+      title: "Resume Image",
+      type: "image",
+      description: "Upload a profile picture of resume",
+      options: { hotspot: true },
+      fields: [
+        {
+          name: "alt",
+          title: "Alt",
+          type: "string",
+        },
+      ],
+    },
     {
       name: "resumeURL",
       title: "Upload Resume",
