@@ -7,7 +7,7 @@ export default function Footer() {
           </small>
   
           <small className="font-semibold">
-            <a href="https://github.com/Ibrahimasgharali12"   target="_blank"  rel="noreferrer noopener">
+            <a href="https://github.com/Ibrahim-Asghar"   target="_blank"  rel="noreferrer noopener">
               Prepared by <span className="text-blue-800">M.Ibrahim</span>
             </a>
           </small>
