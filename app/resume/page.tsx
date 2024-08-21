@@ -35,8 +35,6 @@
 // );
 // }
 
-
-
 import { getProfile } from "@/app/sanity/sanity.query";
 import type { ProfileType } from "@/app/types";
 import { BiFile } from "react-icons/bi";
