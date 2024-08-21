@@ -14,6 +14,7 @@ export type ProfileType = {
   email: string,
   fullBio: PortableTextBlock[],
   location: string,
+  imageURL?: string; 
   resumeURL: string,
   socialLinks: string[],
   skills: string[],
